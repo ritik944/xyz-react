@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Jost:wght@100;200;300;400;500;600;700&family=Libre+Baskerville&display=swap');
+
+body{
+  font-family: 'Jost', sans-serif;
+}
+
+nav{
+  z-index: 10001 !important;
+}
+
+.gradientbg{
+  background: linear-gradient(99deg, #EE9AE5 0%, #5961F9 100%);
+}
+.btnprimary{
+  @apply py-2 px-8 bg-secondary font-semibold text-white rounded hover:bg-primary transition-all duration-300
+}
